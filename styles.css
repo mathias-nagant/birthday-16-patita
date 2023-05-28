@@ -1,0 +1,80 @@
+html body {
+ background-color: #c7000a;
+ background-image: url("https://www.transparenttextures.com/patterns/black-twill.png");
+ font-family: 'Montserrat', sans-serif;
+ margin: 0;
+}
+
+section {
+ margin: 6% 3%;
+}
+
+div .row{
+ margin: 40px 0;
+}
+
+div img .img-center {     /* ← Centers all images to the center of their containers */
+ align-items: center;
+}
+
+hr {
+ border: none;
+ height: 2px;
+ background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+}
+
+section h2 {     /* ← h2 should be used for subtitles only */
+ font-family: 'Raleway', sans-serif;
+ font-size: 1.80rem;
+ color: #f7f3f3;
+}
+
+/* CSS shortcuts ↓ */
+
+section .mt20 {     /* ← 20 pixels of margin-top */
+ margin-top: 20px !important;
+}
+
+section .mb20 {      /* ← 20 pixles of margin-bottom */
+ margin-bottom: 20px !important;
+}
+
+.b-border {
+ border: 3.5px solid black;
+}
+
+/* #header ↓ */
+
+header h1 {
+ font-family: 'Great Vibes', cursive;
+ color: #f7f3f3;
+ font-size: 4rem;
+ text-align: center;
+ margin-bottom: 35px;
+}
+
+/* #body ↓ */
+
+#body p {
+ color: #f0f0f0;
+}
+
+#body div .p-border {
+ border: 3px dotted black;
+}
+
+#body img {
+ margin: 76px 0;
+}
+
+/* #footer ↓ */
+
+#footer {
+ height: 75px;
+ margin: 0;
+ background-color: #780004;
+}
+
+#footer p {
+ padding-top: 20px;
+}
